@@ -1,14 +1,12 @@
 import 'reflect-metadata';
 
 import AppError from '@shared/errors/AppError';
-import FakeMailProvider from '@shared/container/providers/MailProvider/fakes/FakeMailProvider';
 import FakeUserRepository from '../repositories/Fakes/FakeUserRepository';
 import ResetPasswordEmailService from './ResetPasswordService';
 import FakeUserTokensRepository from '../repositories/Fakes/FakeUserTokensRepository';
 import FakeHashProvider from '../providers/HashProvider/fakes/FakeHashProvider';
 
 let fakeUserRepository: FakeUserRepository;
-let fakeMailProvider: FakeMailProvider;
 let fakeUserTokensRepository: FakeUserTokensRepository;
 let resetPasswordEmailService: ResetPasswordEmailService;
 let fakeHashProvider: FakeHashProvider;
@@ -16,7 +14,6 @@ let fakeHashProvider: FakeHashProvider;
 describe('Reset Password', () => {
   beforeEach(() => {
     fakeUserRepository = new FakeUserRepository();
-    fakeMailProvider = new FakeMailProvider();
     fakeUserTokensRepository = new FakeUserTokensRepository();
     fakeHashProvider = new FakeHashProvider();
     resetPasswordEmailService = new ResetPasswordEmailService(

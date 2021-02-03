@@ -2,7 +2,6 @@ import { injectable, inject } from 'tsyringe';
 
 import AppError from '@shared/errors/AppError';
 import IUserRespository from '@modules/users/repositories/IUsersRepository';
-import IMailProvider from '@shared/container/providers/MailProvider/models/IMailProvider';
 import { isAfter, addHours } from 'date-fns';
 import IUserTokensRepository from '../repositories/IUsersTokensRepository';
 import IHashProvider from '../providers/HashProvider/models/IHashProvider';
