@@ -76,7 +76,6 @@ describe('List Provider Month Availability', () => {
       year: 2020,
       month: 5,
     });
-    console.log(availability);
 
     await expect(availability).toEqual(
       expect.arrayContaining([
