@@ -1,14 +1,14 @@
-# goBarber
+# GoBarber
 
 ### API
-Technologies: Node, Express,TypeOrm,Typescript, bcryptjs,Jest ... </br>
+Technologies: Node, Express, TypeOrm, TypeScript, bcryptjs, Jest ... </br>
 Architecture: DDD, SOLID
 
 ### Web (React)
-Technologies: React,React Router, Styled-Components, React Hooks,Context API,Flexbox,Typescript, Axios...
+Technologies: React, React Router, Styled-Components, React Hooks, Context API, Flexbox, TypeScript, Axios...
 
 ### Mobile (React Native)
-Technologies: React Native,React Navigation, Styled-Components, React Hooks,Context Api,Flexbox,Typescript, Axios...
+Technologies: React Native, React Navigation, Styled-Components, React Hooks, Context Api, Flexbox, TypeScript, Axios...
 
 </br> </br> </br>
 
