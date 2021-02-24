@@ -1,23 +1,24 @@
 # goBarber
 
-##API
-Technologies: Node, Express,TypeOrm,Typescript, bcryptjs,Jest ...
+### API
+Technologies: Node, Express,TypeOrm,Typescript, bcryptjs,Jest ... </br>
 Architecture: DDD, SOLID
 
-## Web (React)
+### Web (React)
 Technologies: React,React Router, Styled-Components, React Hooks,Context API,Flexbox,Typescript, Axios...
 
-##Mobile (React Native)
+### Mobile (React Native)
 Technologies: React Native,React Navigation, Styled-Components, React Hooks,Context Api,Flexbox,Typescript, Axios...
 
+</br> </br> </br>
 
-#Available Scripts
+## Available Scripts
 In the project directory, you can run:
 
 
 ### `yarn `
 
-## ->Node 
+## Node 
 
 ### `yarn dev:server`
 
@@ -25,7 +26,7 @@ Runs the app in the development mode.<br />
 Open [http://localhost:3333](http://localhost:3333) .
 
 
-## -> React
+##  React
 
 ### `yarn start`
 
